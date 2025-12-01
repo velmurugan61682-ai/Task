@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Directors & Movies</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .director {
+      margin-bottom: 20px;
+    }
+    .director h2 {
+      margin: 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Directors & Movies</h1>
+
+  <div id="output"></div>
+
+  <script>
+    const data = [
+      {
+        director: "Christopher Nolan",
+        movies: [
+          { name: "Inception" },
+          { name: "Interstellar" },
+          { name: "The Dark Knight" }
+        ]
+      },
+      {
+        director: "James Cameron",
+        movies: [
+          { name: "Avatar" },
+          { name: "Titanic" },
+          { name: "Terminator 2" }
+        ]
+      },
+      {
+        director: "Rajamouli",
+        movies: [
+          { name: "RRR" },
+          { name: "Baahubali 1" },
+          { name: "Baahubali 2" }
+        ]
+      }
+    ];
+
+
+    const output = document.getElementById("output");
+
+    data.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "director";
+
+      div.innerHTML = `
+        <h2>${item.director}</h2>
+        <ul>
+          ${item.movies.map(movie => `<li>${movie.name}</li>`).join("")}
+        </ul>
+      `;
+
+      output.appendChild(div);
+    });
+
+    console.log(data[1].movies[2].name); 
+  </script>
+</body>
+</html> -->

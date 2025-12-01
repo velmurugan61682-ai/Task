@@ -26,4 +26,4 @@ const data = [
   }
 ];
 
-console.log(data[1].movies[2].name);
+console.log(data[1].movies[2].name);  

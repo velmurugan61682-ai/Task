@@ -212,5 +212,5 @@ const createAcc = () => {
 const acc = createAcc();
 acc.deposit(500);   // can access balance
 acc.withdraw(300);
-acc.balance = 3000
+acc.balance = 300;0
 acc.deposit(100);
