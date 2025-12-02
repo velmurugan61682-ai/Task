@@ -193,24 +193,25 @@
 // show()
 
 
-const createAcc = () => {
-    let balance = 1000; // private variable
+// const createAcc = () => {
+//     let balance = 1000; // private variable
 
-    const deposit = (amount) => {
-        balance += amount;
-        console.log("Balance:", balance);
-    }
+//     const deposit = (amount) => {
+//         balance += amount;
+//         console.log("Balance:", balance);
+//     }
 
-    const withdraw = (amount) => {
-        balance -= amount;
-        console.log("Balance:", balance);
-    };
+//     const withdraw = (amount) => {
+//         balance -= amount;
+//         console.log("Balance:", balance);
+//     };
 
-    return { deposit, withdraw };
-};
+//     return { deposit, withdraw };
+// };
 
-const acc = createAcc();
-acc.deposit(500);   // can access balance
-acc.withdraw(300);
-acc.balance = 300;0
-acc.deposit(100);
+// const acc = createAcc();
+// acc.deposit(500);   // can access balance
+// acc.withdraw(300);
+// acc.balance = 300;0
+// acc.deposit(100);
++
