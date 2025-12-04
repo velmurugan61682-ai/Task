@@ -3,7 +3,7 @@ import NavBar from "./assets/NavBar";
 const App=()=>{
   return(
     <>
-    <div>this is my first file</div>
+    <div>My Name is React vite</div>
     <NavBar/>
     </>
   )
