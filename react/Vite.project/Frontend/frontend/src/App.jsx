@@ -1,3 +1,4 @@
+import Moviedetails from "./components/Moviesdetails"
 
 
 
@@ -6,9 +7,8 @@ function App() {
 
   return (
     <>
-    <div style={{backgroundColor}}>
-      <div>this is react</div>
-    </div>
+  
+    <Moviedetails/>
       
     </>
   )
