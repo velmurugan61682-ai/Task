@@ -2,7 +2,7 @@ const Moviedetails = () => {
     
     
     return (<>
-    <div style={{backgroundColor:"black", color:"white"}}>
+    <div style={{backgroundColor:"black", color:"white",textAlign:"center"}}>
      <img src=".\src\assets\Leo_(2023_Indian_film).jpg" alt="poster" />
      <h1>Movie name is : LEO</h1>
     <DirectorName/>
