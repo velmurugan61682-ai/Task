@@ -5,6 +5,7 @@ import Truthly from "./components/Truthly"
 import Trafici from "./components/Traffic"
 import Nulls from "./components/Nulls"
 import Traffic from "./components/Traffic"
+import Movies from "./components/Movies"
 
 
 
@@ -17,8 +18,9 @@ function App() {
       {/* <Text/> */}
       {/* <OddEven/> */}
       {/* <Truthly/> */}
-       <Traffic/>
+       {/* <Traffic/> */}
        {/* <Nulls/> */}
+       <Movies/>
 
     </>
   )
