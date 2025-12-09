@@ -6,6 +6,8 @@ import Trafici from "./components/Traffic"
 import Nulls from "./components/Nulls"
 import Traffic from "./components/Traffic"
 import Movies from "./components/Movies"
+import Resume from "./components/Resume"
+import Leo from "./components/Leo"
 
 
 
@@ -20,7 +22,9 @@ function App() {
       {/* <Truthly/> */}
        {/* <Traffic/> */}
        {/* <Nulls/> */}
-       <Movies/>
+       {/* <Movies/> */}
+       <Resume/>
+       {/* <Leo/> */}
 
     </>
   )
